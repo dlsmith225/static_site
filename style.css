@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d3d3d3;
+}
+
+#banner {
+    background: #FFC300;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: wider;
+    font-weight: 100;
+    display: inline-block;
+}
+
+h3 {
+  display: inline-block;
+}
+
+form {
+  display: inline-block;
+}
+
+input {
+  background: darkslategray;
+  color: white;
+}
+
+#logo {
+  display: inline-block;
+  vertical-align: middle;
+  
+}
+#navbar-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    background: #303030;
+    color:white;
+    font-size: 13px;
+
+}
+
+#navbar {
+margin: 0;
+display: flex;
+justify-content: center;
+vertical-align: center;
+}
+
+ul {
+    margin: 0;
+    padding-left: 635px;
+    padding-bottom: 25px;
+    height: max-content;
+
+    list-style-type: none;
+    vertical-align: center;
+    float: right;
+    background-color: #303030;
+    color: white;
+}
+
+
+li {
+  float: left;
+
+}
+
+li a {
+  float: left;
+  padding: 14px 16px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: center;
+}
+
+#sections {
+  display: flex;
+  justify-content: center
+}
+
+#info {
+  text-align: center;
+  font-size: 40px;
+  color: #2F98EC;
+}
+
+#free {
+  width: 20%;
+  height: 300px;
+  display:inline-block;
+  vertical-align: top;
+  padding:10px;
+  margin-left: 175px;
+  background-color: white;
+}
+
+#full {
+  width: 20%;
+  height: 300px;
+  display:inline-block;
+  vertical-align: top;
+  padding: 10px; 
+  background-color: white;
+}
+
+#part {
+  width: 20%;
+  height: 300px;
+  display:inline-block;
+  vertical-align: top;
+  padding:10px;
+  background-color: white;
+ }
+
+#act {
+  margin-bottom: 0;
+  text-align: center;
+  background-color: red;
+  color: white;
+  font-size: 22px;
+}
+
+video {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;  
+
+}
+
+
+
